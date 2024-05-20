@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - radiz_belajr
+id: radiz_belajr_content
+theme: radiz_belajr
+region: content
+weight: -5
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: "Main page content"
+  label_display: "0"
+  provider: system
+visibility: {}
